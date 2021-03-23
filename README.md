@@ -3,12 +3,12 @@ Canada Provinces COVID-19 Dataset
 
 ***Description:***
 This repository contains one publicly available COVID-19 dataset for the Geography-Based-SEIRDS model
-https://github.com/glenndavidson0/Geography-Based-SERIDS
+https://github.com/SimulationEverywhere-Models/Geography-Based-SEIRDS
 
-***Instructons***
+***Instructions:***
 - Generate the gpkg and geojson from the raw data shape file by:
 - unzip the shp file in the raw_data/geography folder
-- copy the contents to the geography folder and remove the lpr_000b16a_e
+- copy the contents to the geography folder and remove the lpr_000b16a_e folder
 - run geoConverter.sh in the data_processing/shapefile folder
 - copy the resulting gpkg and geojson files from the output folder to the model_data folder
 - Run the scenario generator as needed, it uses the files from the model_data folder, the other data processing scripts do not need to be run

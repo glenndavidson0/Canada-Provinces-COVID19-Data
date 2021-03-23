@@ -1,3 +1,5 @@
-- To run generate_cadmium_json_g3.py, geopandas must be included in the python environment
-- generate_cadmium_json_g3.py reads the results of the data processing stage from the model_data folder and generates a scenario.json
+- To run generate_provinces_json.py, geopandas must be included in the python environment
+- generate_provinces_json.py reads the results of the data processing stage from the model_data folder and generates a scenario.json
+- the gpkg should be generated from the data_processing/shapefile folder and placed in model_data
 - the contents of the input folder can be used to change the inital infected cell state (infectedCell.json), and the default simulation configuration parameters (default.json)
+- the "name" index was added to each cell for clarity of reading scenario files, but is unused in the model
