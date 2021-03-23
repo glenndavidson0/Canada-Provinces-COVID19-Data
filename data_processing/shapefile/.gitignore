@@ -1,0 +1,4 @@
+*.geojson
+*.gpkg
+*.qgz
+output

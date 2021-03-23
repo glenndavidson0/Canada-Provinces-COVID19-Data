@@ -1,0 +1,9 @@
+# only upload the zipped shapefile package
+*.cpg
+*.dbf
+*.prj
+*.shp
+*.shx
+*.xml
+*.gpkg
+*.html

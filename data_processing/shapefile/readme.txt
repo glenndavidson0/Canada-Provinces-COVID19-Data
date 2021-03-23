@@ -1,0 +1,3 @@
+- the python script geoConverter.py can be used to generate a gpkg or geojson from the Government source shape file
+- geoConverter.sh will generate both the gpkg and geojson from the shp in the raw data folder
+- run python geoConverter.py --help in terminal for more information
